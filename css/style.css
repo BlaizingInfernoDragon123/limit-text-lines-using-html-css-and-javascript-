@@ -1,0 +1,139 @@
+ body{
+            margin: 17ch;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 15px;
+            background-image: linear-gradient();
+        }
+        .card{
+            box-sizing: content-box;
+            background-color: transparent;
+            border: 1px solid black;
+            text-align: center;
+            position: relative;
+            height: auto;
+            width: 500px;
+            display: inline-block;
+            border-radius: 5px;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all ease-in-out 250ms;
+            resize: vertical;
+            
+        }
+        .card:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            transition: all ease-in-out 250ms;
+        }
+        .card-img{
+            text-align: center;
+            position: relative;
+            transition: all ease-in-out 250ms;
+        }
+        .image{
+            position: relative;
+            box-sizing: content-box;
+            resize: vertical;
+            top:-20px;
+            transition: all ease-in-out 250ms;
+        }
+        h2{
+            position: relative;
+            top: -10px;
+            transition: all ease-in-out 250ms;
+        }
+        input[type="checkbox"]{
+            width: 0px;
+            height: 0px;
+            transition: all ease-in-out 250ms;
+        }
+        .check-btn{
+            width: 23px;
+            height: 23px;
+            border: 1px solid black;
+            float: right;
+            border-radius: 5px;
+            position: relative;
+            right: 10px;
+            text-align: center;
+            bottom: 10px;
+            transition: all ease-in-out 250ms;
+        }
+        .check-btn:hover{
+            background-color: turquoise;
+        }
+        .check-btn2{
+            width: 23px;
+            height: 23px;
+            border: 1px solid white;
+            color: white;
+            float: right;
+            border-radius: 5px;
+            position: relative;
+            right: 10px;
+            text-align: center;
+            bottom: 10px;
+            transition: all ease-in-out 250ms;
+        }
+        .check-btn:after{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            transition: all ease-in-out 250ms;
+
+        }
+        .text{
+            color: blue;
+            transition: all ease-in-out 250ms;
+        }
+        .text:hover{
+            color: darkblue;
+            transition: all ease-in-out 250ms;
+        }
+        input[type="email"],input[type="text"],select,option,textarea {
+        width: auto;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+        }
+        .send {
+        background-color: hsl(158, 95%, 34%);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+       }
+
+        .send:hover {
+        background-color: hsl(128, 34%, 44%);
+       }
+       .reset {
+        background-color: hsl(0, 86%, 43%);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+       }
+
+        .reset:hover {
+        background-color: hsl(0, 86%, 53%);
+       }
+       form{
+           background-color: transparent;
+       }
+       footer{
+           position: relative;
+           bottom: -80px;
+           text-align: center;
+           vertical-align: center;
+           text-decoration: none;
+           display: inherit;
+       }
+	   @media screen and (max-width: 470px) {
+           body{
+            margin-left: -4.5px;
+           }
+	   }
