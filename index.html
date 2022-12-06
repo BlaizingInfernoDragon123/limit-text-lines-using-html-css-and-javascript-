@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/96913755?v=4" type="image/x-icon"/>
+    <link rel="preconnect" href="https://github.com/blazinginfernodrago123" />
+    <title>Text Lines</title>
+
+</head>
+<body onload="executeFunction()">
+    <div class="card" style="">
+        <div class="card-img">
+            <h2>
+                Article
+            </h2>
+            <img class="image" src="https://i.pinimg.com/originals/b2/2a/a2/b22aa22b2f3f55b6468361158d52e2e7.gif">
+        </div>
+        <div id="info">
+        <h3>Article</h3>
+        <p style="font-size: auto;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, 
+            <div id="text2">
+                <p style="font-size: auto;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente,
+            totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, 
+            sed, incidunt et ea quo dolore laudantium consectetur!<br>
+            <h3>
+            Contact us:-
+            </h3><br>
+            <form action="mailto:blazinginfernodrago123n@gmail.com" method="post" enctype="application/x-www-form-urlencoded">
+            Name:<br>
+            <input type="text" name="Name" placeholder="Enter Name..." required/>
+            <br>
+            E-mail:<br>
+            <input type="email" name="E-mail" placeholder="Enter E-mail..." required/>
+            <br>
+            Country:<br>
+            <select id="country" name="Country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="india">India</option>
+                <option value="sri lanka">Sri Lanka</option>
+                <option value="brazil">Brazil</option>
+                <option value="south africa">South Africa</option>
+                <option value="russia">Russia</option>
+            <option value="france">France</option>
+              </select>
+              <br>
+              Your Query:<br>
+              <textarea type="text" Name="Query" placeholder="Write your Query here..." required></textarea>
+              <br>
+              <br>
+              <br>
+              <button type="submit" class="send" value="Submit" onclick="Alert()"><i class="fa fa-send"></i>  Send </button>
+            
+              <button type="reset" class="reset" value="Reset" onclick="Reset()"><i class="fa fa-refresh"></i> Reset </button>
+            </form>
+            
+            </p>
+            </div>
+        </p>
+        </div>
+        <div class="check-btn" id="btn1" style="width:auto;">
+           <section class="text" id="expand" onclick="expandMenu()">
+              <i class="fa fa-long-arrow-down"></i> See more
+               </section>
+               <input type="checkbox" placeholder="Checkbox" readonly/>
+            </div>
+            <div class="check-btn" id="btn2" style="width:auto;">
+               <section class="text" id="reverse" onclick="closeMenu()">
+                <i class="fa fa-long-arrow-up"></i> See less
+                </section>
+                </div>
+     </div> 
+     <footer>
+         Copyright &copy;2022 <a href="https://github.com/blaizinginfernodragon123"><i class="fa fa-github"></i> BlaizingInfernoDragon123</a>
+     </footer>
+     
+     <script src="js/script.js"></script>
+</body>
+</html>
